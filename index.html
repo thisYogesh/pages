@@ -1,28 +1,23 @@
-<style>
-  .logo-holder {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid #e0f0ff;
-    display: flex;
-    overflow: auto;
-    padding: 15px;
-    background: #fff;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 13px #f1f1f1;
-  }
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="./assets/favicon.ico" rel="ico">
 
-video {width: 100%;}
+    <link href="./assets/style.css" rel="stylesheet">
+    <link href="./assets/fonts.css" rel="stylesheet">
+  </head>
 
-body {
-    background: #f0f8ff;
-}
-</style>
+  <body>
+    <div class="main">
+      <div class="logo-holder">
+        <video src="/assets/UpToque-Intro.mp4" autoplay loop muted playsinline preload="auto" type="video/mp4">
+        </video>
+      </div>
 
-<div class="logo-holder">
-  <video src="/assets/UpToque Animation.mp4" autoplay loop muted playsinline preload="auto" type="video/mp4">
-  </video>
-</div>
+      <p>It's Brewing... Please Wait...</p>
+    </div>
+  </body>
+</html>
+
